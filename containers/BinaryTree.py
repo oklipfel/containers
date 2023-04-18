@@ -90,7 +90,7 @@ class BinaryTree():
         else:
             a = 'Traversal type '
             b = str(traversal_type)
-            c = ' is not supported.'
+            c = ' is not suppported.'
             raise ValueError(a + b + c)
 
     def preorder_print(self, start, traversal):
@@ -152,6 +152,7 @@ class BinaryTree():
             return self.postorder(self.root, [])
         else:
 <<<<<<< HEAD
+<<<<<<< HEAD
             raise ValueError('Traversal type ' 
                             + str(traversal_type) + ' is not supported')
 =======
@@ -160,6 +161,12 @@ class BinaryTree():
             c = ' is not supported.'
             raise ValueError(a + b + c)
 >>>>>>> bst
+=======
+            a = 'Traversal type '
+            b = str(traversal_type)
+            c = ' is not suppported.'
+            raise ValueError(a + b + c)
+>>>>>>> avltree
 
     def preorder(self, start, traversal):
         '''
